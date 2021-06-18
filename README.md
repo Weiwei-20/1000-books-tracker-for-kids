@@ -18,7 +18,7 @@ First, we are going to need to create an API using Spring that will handle our D
       - [ ] Update endpoint
       - [ ] Delete endpoint
      
-  - [ ] A database service layer for retrieving and storing `book`s from the database and interacting with the controllers.
+  - [ ] A database service layer for retrieving and storing `books ' from the database and interacting with the controllers.
   - [ ] Error handling
     - [ ] Resource not found
   - [ ] Integration testing suite
@@ -29,24 +29,24 @@ First, we are going to need to create an API using Spring that will handle our D
 #### Relationships
 
 Our user should be able to:
-- access `book`s from the `categry` the book is on.
+- access `book`s from the `category the book is on.
 
 
 #### User Input Fields
 
 Each entity should have fields the user can interact with:
-- Change an `book`name.
+- Change a `book name.
 - Should have ratings. 
 - Should have comments with a way to add them.
-- Have a way to delete an `book`.
+- Have a way to delete a `book`.
 
 ## Single Page Application Front-end 
 
-Next we will crate our front-end. It should be an SPA that uses JS to build out components that our users can interact with. Use modular JS to create reusable components.  This application should allow you to create new books, edit details about each of the items after they have been created, and delete items.
+Next, we will create our front-end. It should be a SPA that uses JS to build out components that our users can interact with. Use modular JS to create reusable components.  This application should allow you to create new books, edit details about each of the items after they have been created, and delete items.
 
 ### User Interaction
 
-Our users should be able to add new instances of 'book's as well as comments and ratings.
+Our users should be able to add new instances of 'book' as well as comments and ratings.
 
 ## Entities
 
