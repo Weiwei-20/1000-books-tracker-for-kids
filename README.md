@@ -1,9 +1,9 @@
 # Project 1000 Books Tracker for Kids
 
 ## Objective
-Reading is so much fun and so important for little minds. My husband and I have been reading to my son since he was born, every night before bedtime, and other times during the day. He learned so much from books and very interested in all kinds of subjects. 
+Reading is so much fun and so important for little minds. My husband and I have been reading to my son since he was born, every night before bedtime, and other times during the day. He learned so much from books and very interested in all kinds of subjects.
 
-We recently joined our local library for 1000 books before kindergarten, and we also got a color book to track his progress, which is not that convinent and doesn't have a place to record the name of the book, ect. I always wanted to have something to record the books he really loves reading and why he loves about it. Unfortunately, library website doesn't have such funtion to store the books we borrowed and read. Now it's a good time to develope something my son can track his reading progress, also make notes about which book he likes, so we have favorite books list, future reading list and so on, we can also share with other friends and families with their little ones. 
+We recently joined our local library for 1000 books before kindergarten, and we also got a color book to track his progress, which is not that convenient and doesn't have a place to record the name of the book, etc. I always wanted to have something to record the books he really loves reading and why he loves it. Unfortunately, the library website doesn't have such a function to store the books we borrowed and read. Now it's a good time to develop something my son can track his reading progress, also make notes about which book he likes, so we have a favorite books list, future reading list, and so on, we can also share with other friends and families with their little ones.
 
 ## API Creation 
 
