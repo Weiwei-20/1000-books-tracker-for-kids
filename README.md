@@ -12,16 +12,12 @@ First, we are going to need to create an API using Spring that will handle our D
 ### Requirements
 - [ ] Create a RESTful API with Spring Boot.
   - [ ] Endpoints for the following:
-    - [ ] All `CRUD` operations for `album`s
+    - [ ] All `CRUD` operations for `book`s
       - [ ] Create endpoint
       - [ ] Read endpoint
       - [ ] Update endpoint
       - [ ] Delete endpoint
-    - [ ] All `CRUD` operations for `song`s
-      - [ ] Create endpoint
-      - [ ] Read endpoint
-      - [ ] Update endpoint
-      - [ ] Delete endpoint
+     
   - [ ] A database service layer for retrieving and storing `book`s from the database and interacting with the controllers.
   - [ ] Error handling
     - [ ] Resource not found
