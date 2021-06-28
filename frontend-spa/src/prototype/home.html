@@ -1,55 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/frontend-spa/css/style.css">
 </head>
+
 <body>
     <header>
-        <h1>Little Reader</h1>
-        <nav></nav>
+        <div class="container">
+            <h1>Little Reader</h1>
+            <nav></nav>
+        </div>
     </header>
-    <main class="container">
-        <section>
-            <h2>Current reading list</h2>
-            <h4>Book Name</h4>
-            <img src="" alt="book image">
-            <h5>Author:</h5>
-            <h6>Publisher and Year:</h6>
-            <button class="add-to-completed">The End</button>
-            <div>Note to reader</div>
-            <div>Share Comment</div>
+    <main>
+        <div class="container">
+            <section class="current-book">
+                <h2>Current reading list</h2>
+                <div class="new-book">
+                <div class="new-book-img">
+                <img class="current-book-img" src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg"
+                    alt="book image">
+                </div>
+                <div class="new-book-info">
+                    <h4>Book Name</h4>
+                    <h5>Author:</h5>
+                    <p>Publisher and Year:</p>
+                    <p>Age group:</p>
+                    <a href="#" class="btn add-note">Add Note</a>
+                    <a href="#" class="btn add-to-completed">The End</a>
+                </div>
+            </div>
+            </section>
+
+            <section class="future-books">
+                <h2>Future reading list</h2>
+                <div class="future-list-container">
+                    <div class="future-list">
+                        <img class="future-book-img"
+                            src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg" alt="book image">
+                        <h4>Book Name:</h4>
+                        <h5>Author:</h5>
+                        <a href="#" class="btn add-to-current-reading">Read This Book</a>
+                    </div>
+                    <div class="future-list">
+                        <img class="future-book-img"
+                            src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg" alt="book image">
+                        <h4>Book Name:</h4>
+                        <h5>Author:</h5>
+                        <a href="#" class="btn add-to-current-reading">Read This Book</a>
+                    </div>
+                </div>
+            </section>
 
 
-            <!-- Book name,img, author, publisher, year published, my rating, complete reading button, note, comment area -->
-        </section>
-
-        <section>
-            <h2>Future reading list</h2>
-            <h4>Book Name</h4>
-            <img src="" alt="book image">
-            <h5>Author:</h5>
-            <h6>Publisher and Year:</h6>
-            <button class="add-to-current-reading">Read This Book</button>
-            <div>Note to reader</div>
-            <div>Share Comment</div>
-            <!-- Book name,img,  author, publisher, year published, add to reading list button-->
-        </section>
-
-        <section>
-            <h2>Completed reading list</h2>
-            <h4>Book Name</h4>
-            <img src="" alt="book image">
-            <h5>Author:</h5>
-            <h6>Publisher and Year:</h6>
-            <div>Rating</div>
-            <div>Note to reader</div>
-            <div>Share Comment</div>
-            <!-- NO. 1 book read(book count), Book name,img,  author, publisher, year published, my rating,  age recomend, note, show comment, search by keyword or age -->
-        </section>
-    
+        </div>
     </main>
+
+    <section class="container completed-contianer">
+        <h2>Completed reading list</h2>
+        <div class="completed-list-container">
+            <div class="completed-list">
+                <h4>Book Name</h4>
+                <img class="completed-book-img" src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg"
+                    alt="book image">
+                <h5>Author:</h5>
+                <p>Age group:</p>
+                <p>Rating</p>
+                <p>Note to reader</p>
+            </div>
+            <div class="completed-list">
+                <h4>Book Name</h4>
+                <img class="completed-book-img" src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg"
+                    alt="book image">
+                <h5>Author:</h5>
+                <p>Age group:</p>
+                <p>Rating</p>
+                <p>Note to reader</p>
+            </div>
+            <div class="completed-list">
+                <h4>Book Name</h4>
+                <img class="completed-book-img" src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg"
+                    alt="book image">
+                <h5>Author:</h5>
+                <p>Age group:</p>
+                <p>Rating</p>
+                <p>Note to reader</p>
+            </div>
+            <div class="completed-list">
+                <h4>Book Name</h4>
+                <img class="completed-book-img" src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg"
+                    alt="book image">
+                <h5>Author:</h5>
+                <p>Age group:</p>
+                <p>Rating</p>
+                <p>Note to reader</p>
+            </div>
+            <div class="completed-list">
+                <h4>Book Name</h4>
+                <img class="completed-book-img" src="/frontend-spa/images/brown-bear-brown-bear-what-do-you-see.jpg"
+                    alt="book image">
+                <h5>Author:</h5>
+                <p>Age group:</p>
+                <p>Rating</p>
+                <p>Note to reader</p>
+            </div>
+        </div>
+        <a href="#" class="btn completed-books-list">I have read all of them ...</a>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="footer">&copy; 2021 Weiwei Jiang</p>
+        </div>
+    </footer>
 </body>
+
 </html>
